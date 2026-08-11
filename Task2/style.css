@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background-color: #000000f6;
+    padding: 15px;
+}
+
+nav {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img{
+    height: 80px;
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.hero {
+    height: 450px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.75),
+            rgba(20, 20, 20, 0.091)        ),
+        url("https://www.careerincricket.com/storage/blog/imgs/35p5J9XuzPnuazO326eT1YqhMpOEMBhJUy9QJBJk.jpg");
+
+    background-size: cover;
+    /* background-position: top; */
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #ffa602;
+    color: #111;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+.teams {
+    padding: 50px 8%;
+    text-align: center;
+}
+
+.teams h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.team {
+    background-color: white;
+    max-height: 170px;
+    max-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.team-logo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team h3 {
+    font-size: 25px;
+    color: #111b4d;
+    margin-bottom: 10px;
+}
+
+.team p {
+    font-size: 14px;
+}
+
+.about {
+    background-color: #111b4d;
+    color: white;
+    text-align: center;
+    padding: 50px 15%;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #080d27;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    padding: 6px;
+}
+

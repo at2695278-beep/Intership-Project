@@ -265,57 +265,5 @@ footer{
     color:var(--secondary);
 }
 
-@media(max-width:900px){
 
-    .head-container{
-        flex-direction:column;
-        text-align:center;
-    }
 
-    header h1{
-        font-size:2.4rem;
-    }
-
-    .head-content-p{
-        justify-content:center;
-    }
-}
-
-@media(max-width:768px){
-
-    nav{
-        flex-direction:column;
-        gap:15px;
-    }
-
-    nav ul{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:15px;
-    }
-
-    section h2{
-        font-size:2rem;
-    }
-
-    .project-card{
-        width:100%;
-        max-width:350px;
-    }
-}
-
-@media(max-width:500px){
-
-    header h1{
-        font-size:2rem;
-    }
-
-    header img{
-        width:140px;
-        height:140px;
-    }
-
-    .head-content-p li{
-        font-size:.8rem;
-    }
-}
