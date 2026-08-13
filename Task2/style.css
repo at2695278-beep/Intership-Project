@@ -60,7 +60,6 @@ nav ul li a:hover {
         url("https://www.careerincricket.com/storage/blog/imgs/35p5J9XuzPnuazO326eT1YqhMpOEMBhJUy9QJBJk.jpg");
 
     background-size: cover;
-    /* background-position: top; */
     background-repeat: no-repeat;
     padding-bottom: 2rem;
     overflow: hidden;
@@ -97,10 +96,6 @@ button:hover {
     text-align: center;
 }
 
-.teams h2 {
-    font-size: 35px;
-    margin-bottom: 30px;
-}
 
 .team-container {
     display: grid;
@@ -127,10 +122,6 @@ button:hover {
     font-size: 25px;
     color: #111b4d;
     margin-bottom: 10px;
-}
-
-.team p {
-    font-size: 14px;
 }
 
 .about {
